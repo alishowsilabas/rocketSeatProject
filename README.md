@@ -15,6 +15,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
+<p align="center">
+        <img alt="Exemplo DevLinks" src=".github/Cover.png" width="100%">
+</p>
+
 
 ## 🚀 Tecnologias
 
@@ -27,9 +31,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
+Proporciona a criação de um agregador de links para utilizar como cartão de visitas online.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/IqxpEcb3C2z48k25ehUJaM/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=1437-191&mode=design&t=vD2vP2hEhTcTkIF9-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
