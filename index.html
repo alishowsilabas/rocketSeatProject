@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br" class="lightMode">
 
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Inter:wght@400;500&display=swap"
@@ -19,17 +19,17 @@
       <p id="myName">Alisson Rosas</p>
     </div>
 
-    <div id="switch">
-      <button></button>
+    <div id="switch" onclick="toggleMode()">
+      <button title="Botão de Modo"></button>
       <span></span>
     </div>
 
     <ul>
       <li>
-        <a href="https://github.com/alishowsilabas" target="_blank" rel="noreferrer noopener">Veja meu GitHub</a>
+        <a href="https://github.com/alishowsilabas" title="GitHub" target="_blank" rel="noreferrer noopener">Veja meu GitHub</a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/alissonrosas/" target="_blank" rel="noreferrer noopener">Confira meu
+        <a href="https://www.linkedin.com/in/alissonrosas/" title="LinkedIn" target="_blank" rel="noreferrer noopener">Confira meu
           LinkedIn</a>
       </li>
       <li>
@@ -40,15 +40,15 @@
       </li>
     </ul>
     <div id="socials">
-      <a href="https://github.com/alishowsilabas" target="_blank" rel="noreferrer noopener">
+      <a href="https://github.com/alishowsilabas" title="GitHub" target="_blank" rel="noreferrer noopener">
         <ion-icon name="logo-github"></ion-icon>
       </a>
 
-      <a href="https://www.linkedin.com/in/alissonrosas/" target="_blank" rel="noreferrer noopener">
+      <a href="https://www.linkedin.com/in/alissonrosas/" title="LinkedIn" target="_blank" rel="noreferrer noopener">
         <ion-icon name="logo-linkedin"></ion-icon>
       </a>
 
-      <a href="https://www.instagram.com/alissonsilabas/" target="_blank" rel="noreferrer noopener">
+      <a href="https://www.instagram.com/alissonsilabas/" title="Instagram" target="_blank" rel="noreferrer noopener">
         <ion-icon name="logo-instagram"></ion-icon>
       </a>
     </div>
@@ -57,6 +57,7 @@
         Rosas</a>
     </footer>
   </div>
+  <script src="./script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

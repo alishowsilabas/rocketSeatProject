@@ -15,7 +15,7 @@
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./assets/moon-stars.svg);
     --switch-profile-bg: linear-gradient(to right, #AA076B, #61045F);
-    --switch-profile-bg-webkit: -webkit-linear-gradient(to right, #AA076B, #61045F));
+    --switch-profile-bg-webkit: -webkit-linear-gradient(to right, #AA076B, #61045F);
     --profile-bg-border-color: white;
 }
 
@@ -29,7 +29,7 @@
     --switch-bg-url: url(./assets/sun.svg);
     --switch-profile-bg: linear-gradient(to right, #1D2B64, #F8CDDA);
     --switch-profile-bg-webkit: -webkit-linear-gradient(to right, #1D2B64, #F8CDDA);
-    --profile-bg-border-color: rgb(252, 158, 236);
+    --profile-bg-border-color: black;
 }
 
 body {
@@ -82,12 +82,18 @@ body * {
     background: white var(--switch-bg-url) no-repeat center;
     border: 0;
     border-radius: 50%;
+    cursor: pointer;
 
     position: absolute;
     top: 50%;
-    right: 0;
+    left: 0;
     z-index: 1;
     transform: translateY(-50%);
+}
+
+.lightMode #switch button {
+    right: 0;
+    left: initial;
 }
 
 #switch span {
@@ -96,8 +102,8 @@ body * {
     display: block;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
-    backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
 
@@ -111,7 +117,7 @@ ul {
     padding: 24px 0;
 }
 
-ul li a{
+ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,8 +129,8 @@ ul li a{
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
     
-    backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 
     text-decoration: none;
     font-weight: 500;
